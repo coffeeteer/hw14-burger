@@ -4,15 +4,16 @@
   "description": "Helps find your friends",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "1.15.2",
-    "express": "4.14.0",
-    "path": "0.12.7",
-    "method-override": "2.3.6",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "method-override": "^2.3.5",
+    "mysql": "^2.10.2"
+  },
     "repository": {
       "type": "git",
       "url": "https://github.com/coffeeteer/hw14-burger"
    },
-  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,4 +22,3 @@
   "author": "Coffeeteer",
   "license": "ISC"
 }
-
