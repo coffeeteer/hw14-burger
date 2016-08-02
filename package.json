@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Helps find your friends",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "path": "0.12.7",
+    "method-override": "2.3.6",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/coffeeteer/hw14-burger"
+   },
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Coffeeteer",
+  "license": "ISC"
+}
+
