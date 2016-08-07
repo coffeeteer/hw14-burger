@@ -1,6 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var handlebars = require('express-handlebars');
+var connect = require('connect');
+var methodOverride = require('method-override');
 
 var app = express();
 
@@ -9,6 +11,8 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({
 	extended: false
 }));
+
+app.use(methodOverride('X-HTTP-Method-Override'));
 
 app.engine('handlebars', handlebars({  //sets the handles page 'main' to be the skeleton of every webpage
 	defaultLayout: 'main'
