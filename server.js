@@ -68,3 +68,4 @@ app.use('/', routes);
 
 var port = 3000;
 app.listen(port);
+console.log('Listening to PORT ' + port);
