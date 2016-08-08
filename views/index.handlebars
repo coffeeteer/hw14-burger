@@ -14,7 +14,7 @@
 
 <ul>
   {{#each burgers}}
-    {{#unless this.hungry}}
+    {{#unless this.hungry}} 
       <li>
         {{this.name}}
 
@@ -47,15 +47,15 @@
 </ul>
 
 <h2>Cook a Burger!</h2>
-<form class="create-update-form" action="cats/create" method="POST">
+<form class="create-update-form" action="burgers/create" method="POST">
 
   <div class="form-group">
-    <label for="burger">Burger Name:</label>
-    <input type="text" id="ca" name="name">
+    <label for="burg">Burger Name:</label>
+    <input type="text" id="burg" name="name">
   </div>
 
   <div class="form-group">
-    <label for="slee">Hungry?</label><br>
+    <label for="hungry">Hungry?</label><br>
     <input type="radio" name="hungry" value="1" checked> Full!<br>
     <input type="radio" name="hungry" value="0"> Hungry.
   </div>
